@@ -1,0 +1,39 @@
+.container {
+    background-color: #111111;
+    min-height: 80vh;
+    width: 40vw;
+    color: #dedede;
+    border-radius: 25px;
+}
+
+.title {
+    padding: 25px;
+    margin: 0;
+    font-size: 64px;
+}
+
+.notepad__notes {
+    width: 100%;
+    padding: 25px;
+}
+
+.button__delete {
+    outline: none;
+    border: none;
+    background-color: #1a1a1a;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #dedede;
+    border: 1px solid #222222;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    float: right;
+    cursor: pointer;
+    color: #dedede;
+    font-size: 14px;
+}
+
+.button__delete:focus {
+    border: 1px solid #dedede;
+}

@@ -1,0 +1,80 @@
+.note {
+    width: 100%;
+    position: relative;
+    border: 1px solid #222222;
+    padding: 15px;
+    padding-right: 85px;
+    border-radius: 25px;
+    transition: 200ms;
+    margin-bottom: 25px;
+}
+
+.note:focus-within {
+    border: 1px solid #dedede;
+    transition: 200ms;
+}
+
+.note input, .note button {
+    outline: none;
+    border: none;
+    background-color: #1a1a1a;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #dedede;
+}
+
+.note input {
+    border: 1px solid #1a1a1a;
+}
+
+.note input:focus {
+    border: 1px solid #555555;
+    transition: 200ms;
+}
+
+
+.note__input {
+    width: 100%;
+}
+
+.note__button {
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.note__button button {
+    padding: 0;
+    width: 35px;
+    background-color: #111111;
+}
+
+.note__button button {
+    color: #aaaaaa;
+    transition: 200ms;
+    cursor: pointer;
+}
+
+.note__delete button {
+    transform: rotate(405deg);
+}
+
+.note__button button:focus {
+    color: #dedede;
+    transition: 200ms;
+}
+
+.note__delete button:active {
+    transform: rotate(360deg);
+}
+
+input.note__disabled {
+    background-color: #101010;
+    border: 1px solid #101010
+}
+
+.hidden {
+    display: none;
+}
